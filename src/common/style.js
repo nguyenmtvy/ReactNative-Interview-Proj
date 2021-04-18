@@ -6,7 +6,7 @@ export default StyleSheet.create({
         width: '100%',
         marginHorizontal: 5,
         paddingLeft: 10,
-        backgroundColor: '#B6B0BD',
+        backgroundColor: '#B0C1DB',
         borderRadius: 6,
     },
     halfviewButton: {
@@ -23,6 +23,12 @@ export default StyleSheet.create({
         height: 35,
         paddingRight: 0,
         backgroundColor: '#d9egf3', 
+    },
+    containerText:{
+        flexDirection: 'row',
+    },
+    containerInfo:{
+        paddingLeft: 15
     },
     containerSetting: {
         flexDirection: 'row',
@@ -49,7 +55,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'center',
         flex: 1,
-        backgroundColor: '#999891'
+        backgroundColor: '#8EACD0'
     },
     listContainer: {
         marginTop: 30,
@@ -71,6 +77,6 @@ export default StyleSheet.create({
         borderRadius: 6,
         paddingLeft: 5,
         alignItems: 'center',
-        justifyContent:'center'
+        flexDirection: 'row'
     }
 })

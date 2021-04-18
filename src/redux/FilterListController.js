@@ -1,5 +1,7 @@
 const data = require('../data/data.json').data
 
+export const getAllAdvisors = () => data.advisorProfileCollection.items
+
 export const getAdvisorById = (id) => data.advisorProfileCollection.items.find(item => item.sys.id === id)
 
 export const getCategoriesById = (id) => getAdvisorById(id).categoriesCollection
