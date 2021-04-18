@@ -25,7 +25,6 @@ const initialState = {
 
 export const filterReducer = (state = initialState, action) => {
     if (action.type === GET_LIST){
-        console.log(state)
         switch (state.filterType){
             case FILTER_CATEGORY: {
                 return{

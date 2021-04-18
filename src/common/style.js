@@ -14,7 +14,6 @@ export default StyleSheet.create({
         marginLeft: 10,
         height: 35,
         paddingRight: 0,
-        backgroundColor: '#d9egf3', 
         borderRadius: 6,
     },
     fullviewButton: {
@@ -22,7 +21,6 @@ export default StyleSheet.create({
         width: '95%',
         height: 35,
         paddingRight: 0,
-        backgroundColor: '#d9egf3', 
     },
     containerText:{
         flexDirection: 'row',
@@ -34,7 +32,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         width: '98%',
         flex: 0.1,
-        marginTop: 30,
+        marginTop: 60,
         alignItems: 'center',
         justifyContent: 'flex-start',
         borderRadius: 10,
@@ -53,7 +51,6 @@ export default StyleSheet.create({
         width: '100%',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        flexDirection: 'center',
         flex: 1,
         backgroundColor: '#8EACD0'
     },

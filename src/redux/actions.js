@@ -8,7 +8,6 @@ export const filterCategory = () =>{
 }
 
 export const filterName = () => {
-    console.log('NAME')
     return{
         type: FILTER_NAME,
         payload: 'FILTER_NAME'

@@ -23,10 +23,9 @@ const HomeView = ({navigation}) => {
     const handleSearchChange = (value) => setSearchValue(value);
 
     const getAdvisorsList = () => {
-      console.log(searchValue)
       dispatch( getAdvisors(searchValue))
     }
-    
+
     return (
       <View style={stylesheet.container}>
         <View style={stylesheet.containerSetting}>
