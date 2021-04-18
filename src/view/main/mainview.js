@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, TextInput, FlatList, Button, StatusBar} from 'react-native'
+import { View, Text, TextInput, FlatList, Button, Image} from 'react-native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import { DrawerActions } from '@react-navigation/native'
 
@@ -8,6 +8,8 @@ import Drawer from '../drawer/Drawer'
 
 
 const collections = require('../../data/data.json')
+
+const placeholderImage = require('../../images/img_173956.png')
 
 const drawerNavigator = createDrawerNavigator()
 
@@ -60,6 +62,10 @@ const HomeView = ({navigation}) => {
             renderItem={(items) => (
               <View style={stylesheet.itemContainer}>
                 <Text style={stylesheet.listItem}>{items.item.displayName}</Text>
+                <View>
+                  
+                </View>
+                <Image style={{width: 100, height: 100}} source={items.item.avatarUrl  ? {uri:items.item.avatarUrl.url} : placeholderImage}/>
               </View>
             )}
           />

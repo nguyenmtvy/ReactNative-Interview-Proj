@@ -66,7 +66,7 @@ export default StyleSheet.create({
     },
     itemContainer: {
         backgroundColor: '#DAB6C3',
-        height: 30,
+        height: 200,
         margin: 10,
         borderRadius: 6,
         paddingLeft: 5,
